@@ -14,17 +14,23 @@ Using the np.linalg.eig(),  we get two results (first is eigenvalue and second i
 ## Step 4: 
 End the program 
 
+NAME ANBU SELVAN S
+
+REG NO 212223110003
+
+DEP CSE(IOT)
+
 ## Program:
 ```
 #Program to find the eigen values and eigen vectors.
 #Developed by: ANBU SELVAN S
-#RegisterNumber:212223240105
+#RegisterNumber:212223110003
 import numpy as np
 A = np.array([[2,2],[1,3]])
 values, vectors = np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
 ```
 ## Output:
-![alt text](image.png)
+![alt text](image-1.png)
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
